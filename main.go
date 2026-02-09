@@ -18,4 +18,5 @@ func main() {
 	fmt.Println("Connected to Postgres")
 
 	Crud(ctx, conn)
+	Transactions(ctx, conn)
 }
